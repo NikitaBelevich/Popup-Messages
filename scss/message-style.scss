@@ -7,3 +7,20 @@ body {
     // font-size: 1.1rem;
     background-color: rgb(228, 228, 228);
 }
+
+.popup-massage {
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 350px;
+    min-height: 80px;
+    border-radius: 4px;
+    // background: #e4aff5;
+}
+
+.message-wrapper {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
