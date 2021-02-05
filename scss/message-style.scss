@@ -2,25 +2,33 @@ html, body {
     font-family: sans-serif;
 }
 body {
-    height: 5000px;
     margin: 15px;
-    // font-size: 1.1rem;
     background-color: rgb(228, 228, 228);
 }
 
-.popup-massage {
+.popup-message {
     box-sizing: border-box;
     margin-top: 10px;
     padding: 10px 15px;
     width: 350px;
     min-height: 80px;
-    border-radius: 4px;
-    // background: #e4aff5;
 }
-
+.popup-message_style-class {
+    border-radius: 4px;
+    background-color: #feb960;
+    box-shadow: 0px 0px 8px #feb960;
+    transition: .3s ease-out;
+    font-size: 16px;
+    text-align: center;
+    line-height: 28px;
+}
+.popup-message_hide {
+    opacity: 0;
+    visibility: hidden;
+}
 .message-wrapper {
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 15px;
+    bottom: 15px;
 }
 

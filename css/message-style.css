@@ -3,23 +3,38 @@ html, body {
 }
 
 body {
-  height: 5000px;
   margin: 15px;
   background-color: #e4e4e4;
 }
 
-.popup-massage {
+.popup-message {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-top: 10px;
   padding: 10px 15px;
   width: 350px;
   min-height: 80px;
+}
+
+.popup-message_style-class {
   border-radius: 4px;
+  background-color: #feb960;
+  -webkit-box-shadow: 0px 0px 8px #feb960;
+          box-shadow: 0px 0px 8px #feb960;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+  font-size: 16px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.popup-message_hide {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .message-wrapper {
   position: fixed;
-  right: 10px;
-  bottom: 10px;
+  right: 15px;
+  bottom: 15px;
 }
